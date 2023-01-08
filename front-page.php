@@ -2,14 +2,13 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
+<meta charset="utf-8">
     <title>Finanza - Financial Services Website Template</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
    
@@ -99,7 +98,7 @@
         <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="img/carousel-1.jpg" alt="Image">
+                    <img class="w-100" src="/assets/img/carousel-1.jpg" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-start">
@@ -116,7 +115,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="img/carousel-2.jpg" alt="Image">
+                    <img class="w-100" src="/assets/img/carousel-2.jpg" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-start">
@@ -150,7 +149,7 @@
         <div class="container">
             <div class="row g-4 align-items-end mb-4">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <img class="img-fluid rounded" src="img/about.jpg">
+                    <img class="img-fluid rounded" src="/assets/img/about.jpg">
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">About Us</p>
@@ -372,7 +371,7 @@
                             <div class="row g-4">
                                 <div class="col-md-6" style="min-height: 350px;">
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute rounded w-100 h-100" src="img/service-1.jpg"
+                                        <img class="position-absolute rounded w-100 h-100" src="/assets/img/service-1.jpg"
                                             style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
@@ -392,7 +391,7 @@
                             <div class="row g-4">
                                 <div class="col-md-6" style="min-height: 350px;">
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute rounded w-100 h-100" src="img/service-2.jpg"
+                                        <img class="position-absolute rounded w-100 h-100" src="/assets/img/service-2.jpg"
                                             style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
@@ -412,7 +411,7 @@
                             <div class="row g-4">
                                 <div class="col-md-6" style="min-height: 350px;">
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute rounded w-100 h-100" src="img/service-3.jpg"
+                                        <img class="position-absolute rounded w-100 h-100" src="/assets/img/service-3.jpg"
                                             style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
@@ -432,7 +431,7 @@
                             <div class="row g-4">
                                 <div class="col-md-6" style="min-height: 350px;">
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute rounded w-100 h-100" src="img/service-4.jpg"
+                                        <img class="position-absolute rounded w-100 h-100" src="/assets/img/service-4.jpg"
                                             style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
@@ -521,7 +520,7 @@
             <div class="owl-carousel project-carousel wow fadeInUp" data-wow-delay="0.3s">
                 <div class="project-item pe-5 pb-5">
                     <div class="project-img mb-3">
-                        <img class="img-fluid rounded" src="img/service-1.jpg" alt="">
+                        <img class="img-fluid rounded" src="/assets/img/service-1.jpg" alt="">
                         <a href=""><i class="fa fa-link fa-3x text-primary"></i></a>
                     </div>
                     <div class="project-title">
@@ -530,7 +529,7 @@
                 </div>
                 <div class="project-item pe-5 pb-5">
                     <div class="project-img mb-3">
-                        <img class="img-fluid rounded" src="img/service-2.jpg" alt="">
+                        <img class="img-fluid rounded" src="/assets/img/service-2.jpg" alt="">
                         <a href=""><i class="fa fa-link fa-3x text-primary"></i></a>
                     </div>
                     <div class="project-title">
@@ -539,7 +538,7 @@
                 </div>
                 <div class="project-item pe-5 pb-5">
                     <div class="project-img mb-3">
-                        <img class="img-fluid rounded" src="img/service-3.jpg" alt="">
+                        <img class="img-fluid rounded" src="/assets/img/service-3.jpg" alt="">
                         <a href=""><i class="fa fa-link fa-3x text-primary"></i></a>
                     </div>
                     <div class="project-title">
@@ -548,7 +547,7 @@
                 </div>
                 <div class="project-item pe-5 pb-5">
                     <div class="project-img mb-3">
-                        <img class="img-fluid rounded" src="img/service-4.jpg" alt="">
+                        <img class="img-fluid rounded" src="/assets/img/service-4.jpg" alt="">
                         <a href=""><i class="fa fa-link fa-3x text-primary"></i></a>
                     </div>
                     <div class="project-title">
@@ -571,7 +570,7 @@
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item">
-                        <img class="img-fluid rounded" src="img/team-1.jpg" alt="">
+                        <img class="img-fluid rounded" src="/assets/img/team-1.jpg" alt="">
                         <div class="team-text">
                             <h4 class="mb-0">Kate Winslet</h4>
                             <div class="team-social d-flex">
@@ -586,7 +585,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item">
-                        <img class="img-fluid rounded" src="img/team-2.jpg" alt="">
+                        <img class="img-fluid rounded" src="/assets/img/team-2.jpg" alt="">
                         <div class="team-text">
                             <h4 class="mb-0">Jac Jacson</h4>
                             <div class="team-social d-flex">
@@ -601,7 +600,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item">
-                        <img class="img-fluid rounded" src="img/team-3.jpg" alt="">
+                        <img class="img-fluid rounded" src="/assets/img/team-3.jpg" alt="">
                         <div class="team-text">
                             <h4 class="mb-0">Doris Jordan</h4>
                             <div class="team-social d-flex">
@@ -636,7 +635,7 @@
                         Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem
                         lorem magna ut et, nonumy et labore et tempor diam tempor erat.
                     </div>
-                    <img class="rounded-circle mb-3" src="img/testimonial-1.jpg" alt="">
+                    <img class="rounded-circle mb-3" src="/assets/img/testimonial-1.jpg" alt="">
                     <h4>Client Name</h4>
                     <span>Profession</span>
                 </div>
@@ -648,7 +647,7 @@
                         Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem
                         lorem magna ut et, nonumy et labore et tempor diam tempor erat.
                     </div>
-                    <img class="rounded-circle mb-3" src="img/testimonial-2.jpg" alt="">
+                    <img class="rounded-circle mb-3" src="/assets/img/testimonial-2.jpg" alt="">
                     <h4>Client Name</h4>
                     <span>Profession</span>
                 </div>
@@ -660,7 +659,7 @@
                         Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem
                         lorem magna ut et, nonumy et labore et tempor diam tempor erat.
                     </div>
-                    <img class="rounded-circle mb-3" src="img/testimonial-3.jpg" alt="">
+                    <img class="rounded-circle mb-3" src="/assets/img/testimonial-3.jpg" alt="">
                     <h4>Client Name</h4>
                     <span>Profession</span>
                 </div>
@@ -672,7 +671,7 @@
                         Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem
                         lorem magna ut et, nonumy et labore et tempor diam tempor erat.
                     </div>
-                    <img class="rounded-circle mb-3" src="img/testimonial-4.jpg" alt="">
+                    <img class="rounded-circle mb-3" src="/assets/img/testimonial-4.jpg" alt="">
                     <h4>Client Name</h4>
                     <span>Profession</span>
                 </div>
@@ -758,6 +757,7 @@
 
 
     <!-- JavaScript Libraries -->
+
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/assets/lib/wow/wow.min.js"></script>
@@ -768,6 +768,11 @@
 
     <!-- Template Javascript -->
     <script src="/assets/js/main.js"></script>
+    <?php
+    wp_footer();
+
+?>
+
 </body>
 
 </html>
