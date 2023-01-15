@@ -1,7 +1,16 @@
 <?php
+
+    function yl_theme_support()
+    {
+        Add_theme_support('title-tag');
+    }
+    add_action('after_setup_theme','yl_theme_support');
+
     function yl_links(){
         
         // <!-- Icon Font Stylesheet -->
+        $version = wp_get_theme()->get('version');
+
         wp_enqueue_style('yl_iconFont',"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css",array(),'1.0','all');
         wp_enqueue_style('yl_iconFont1',"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css",array(),'1.0','all');
         // <!-- End Icon Font Stylesheet -->
@@ -13,25 +22,14 @@
         wp_enqueue_style('yl_animate',get_template_directory_uri()."/assets/lib/animate/animate.min.css",array(),'1.0','all');
         wp_enqueue_style('yl_animate1',get_template_directory_uri()."/assets/lib/owlcarousel/assets/owl.carousel.min.css",array(),'1.0','all');
         wp_enqueue_style('yl_bootstrap',get_template_directory_uri()."/assets/css/bootstrap.min.css",array(),'1.0','all');
-        wp_enqueue_style('yl_style',get_template_directory_uri()."/assets/css/style.css",array(),'1.0','all');
+        wp_enqueue_style('yl_style',get_template_directory_uri()."/assets/css/style.css",array(),$version,'all');
     }
     add_action('wp_enqueue_scripts','yl_links');
 
 
     function yl_scripts()
     {
-    // { <!-- JavaScript Libraries -->
-    //     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    //     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    //     <script src="lib/wow/wow.min.js"></script>
-    //     <script src="lib/easing/easing.min.js"></script>
-    //     <script src="lib/waypoints/waypoints.min.js"></script>
-    //     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    //     <script src="lib/counterup/counterup.min.js"></script>
     
-    //     <!-- Template Javascript -->
-    //     <script src="js/main.js"></script>
-
 
         wp_enqueue_script('yl_JQ',"https://code.jquery.com/jquery-3.4.1.min.js",array(),'1.0','all');
         wp_enqueue_script('yl_jsdelivr',"https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js",array(),'1.0','all');
